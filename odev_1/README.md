@@ -1,1 +1,1 @@
-![image](/ss.png)
+![image](/odev_1/ss.png)
