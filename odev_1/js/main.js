@@ -2,7 +2,7 @@ let inputname =prompt("Adiniz nedir? ")
 let username = document.querySelector("#myName")
 username.innerHTML=`${inputname}`
 
-function time(){
+function showTime(){
 let dateData = new Date()
 let hours = dateData.getHours()
 let minutes=dateData.getMinutes()
@@ -15,4 +15,4 @@ let info =document.querySelector("#myClock")
 info.innerHTML = `${hours}:${minutes}:${seconds} ${dayName}`
 
 }
-setInterval(time,1000);
+setInterval(showTime,1000);
